@@ -66,16 +66,40 @@ FIGURE -03
 
 
 
-PROGRAM 
+PROGRAM :
+~~~
+int ledpin=7;
+int pushpin=2;
+int val=0;
+void setup()
+{
+  pinMode(ledpin, OUTPUT);
+  pinMode(pushpin,INPUT);
+}
+
+void loop()
+{
+  val =digitalRead(pushpin);
+  if(val==0)
+  {
+    digitalWrite(ledpin,HIGH);
+  }
+  else
+  {
+    digitalWrite(ledpin,LOW);
+  }
+    
+}
  
  
  
- 
+ ~~~
  
 
 
 
 Output of the simulation :
 
-[My image](username.github.com/repository/img/image.jpg)
+![op](https://user-images.githubusercontent.com/93901857/187037028-320c4288-6ea4-4228-93f3-bae69c5dcfd5.jpg)
+
 
