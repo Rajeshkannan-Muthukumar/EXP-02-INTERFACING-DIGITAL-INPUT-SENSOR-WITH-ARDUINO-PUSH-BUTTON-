@@ -99,7 +99,21 @@ void loop()
 
 
 Output of the simulation :
-
+### Before Stimulation
 ![op](https://user-images.githubusercontent.com/93901857/187037028-320c4288-6ea4-4228-93f3-bae69c5dcfd5.jpg)
+
+
+### After Stimulation
+![OP2](https://user-images.githubusercontent.com/93901857/187058357-b174f2ee-0f41-423f-83e6-e031b37a1631.jpg)
+
+
+
+
+
+
+
+## Result
+
+ Thus the simulation output is completed in tinker cad successfully.
 
 
